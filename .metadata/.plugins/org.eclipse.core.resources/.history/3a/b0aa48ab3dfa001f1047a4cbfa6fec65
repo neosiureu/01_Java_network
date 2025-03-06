@@ -1,0 +1,21 @@
+package edu.kh.network.client.model.service;
+
+public class ClientService {
+	
+	
+	public void clientStart() {
+		// 클라이언트는 일단 서버의 IP주소와 포트번호를 알아야 요청 가능
+		// 
+		
+		
+		// 1) 서버의 IP주소와 서버가 정한 포트번호를 매개변수로 하여 클라이언트용 소켓 객체 생성
+		// 2) 서버와의 입출력 스트림 오픈
+		// 3) 보조 스트림을 통해 성능 개선
+		// 4) 스트림을 통해 읽고 쓰기
+		// 5) 통신 종료
+		
+		
+		
+	}
+
+}

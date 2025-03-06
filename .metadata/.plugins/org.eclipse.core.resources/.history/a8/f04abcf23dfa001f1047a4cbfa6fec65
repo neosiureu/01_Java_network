@@ -1,0 +1,26 @@
+package edu.kh.network.client.model.service;
+
+import java.net.InetAddress;
+
+public class ClientService {
+	
+	
+	public void clientStart() {
+		// 클라이언트는 일단 서버의 IP주소와 포트번호를 알아야 요청 가능
+		// a. 현재 컴퓨터의 로컬 IP주소를 얻어오는 방법 =? String serverIP = InetAddress.getLocalHost().getHostAddress();
+		// b. 어차피 같은 컴퓨터에서 통신하고 싶으므로 loopbackIP를 이용하면 된다. 
+		String serverIP  = "127.0.0.1"; // 상수 스트링 값으로 현재 컴퓨터를 나타내는 IP이다
+		
+		
+		
+		// 1) 서버의 IP주소와 서버가 정한 포트번호를 매개변수로 하여 클라이언트용 소켓 객체 생성
+		// 2) 서버와의 입출력 스트림 오픈
+		// 3) 보조 스트림을 통해 성능 개선
+		// 4) 스트림을 통해 읽고 쓰기
+		// 5) 통신 종료
+		
+		
+		
+	}
+
+}
